@@ -1,0 +1,36 @@
+﻿body {
+}
+
+.nav-container{
+    border: 1px solid red;
+   
+}
+
+.menu-item{
+    display:block;
+    position:relative;
+    list-style-type:none;
+}
+
+.menu-item li{
+    display:inline-block;
+}
+
+.nav-container > ul{
+    list-style-type:none;
+}
+
+.sub-nav-list {
+ display:none;
+ position:absolute;
+}
+
+.sub-nav-list li  {
+    display:block;
+}
+
+.menu-item li:hover .sub-nav-list{
+ display:block;
+ 
+}
+

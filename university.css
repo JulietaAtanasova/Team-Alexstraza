@@ -1,36 +1,74 @@
 ﻿body {
 }
 
-.nav-container{
+html {
+    font-size: 10px;
+    font-family: Tahoma,Arial,sans-serif;
+}
+
+body, div, p, h1, h2, h3, h4, h5, h6, span, li, ul, a, {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-container {
     border: 1px solid red;
-   
+    float: right;
 }
 
-.menu-item{
-    display:block;
-    position:relative;
-    list-style-type:none;
+.menu-item {    
+    
+    position: relative;
 }
 
-.menu-item li{
-    display:inline-block;
-}
+    .menu-item li {
+        display: inline-block;
+        border-bottom-color: #435f7b;
+        text-align:left;
+    }
 
-.nav-container > ul{
-    list-style-type:none;
+ul li a {
+    list-style-type: none;
+    font-weight:normal;
 }
 
 .sub-nav-list {
- display:none;
- position:absolute;
+    display: none;
+    background-color:aqua;
+    margin-top:1rem;
+    
 }
 
-.sub-nav-list li  {
+.sub-nav-list li{
+    padding-top:1.3rem;
+    padding-bottom:1.3rem;
+    border-bottom:1px solid #52bea3;
     display:block;
+    font-weight:normal;
+    
+    
+}
+
+.menu-item > li > a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.sub-nav-list > li > a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left:-2.5rem;
+}
+
+.menu-item li a:hover {
+    background-color: #ff9c00;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .menu-item li:hover .sub-nav-list{
- display:block;
- 
+    display: block;
+    position: absolute;
 }
-

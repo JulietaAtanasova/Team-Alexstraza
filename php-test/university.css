@@ -1,0 +1,67 @@
+﻿body {
+}
+
+html {
+    font-size: 16px;
+    font-family: Tahoma,Arial,sans-serif;
+}
+
+body, div, p, h1, h2, h3, h4, h5, h6, span, li, ul, a, {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    padding: 0;
+    top: 100%;
+}
+
+    nav ul ul li {
+        float: none;
+        position: relative;
+        background-color:aqua;
+    }
+
+        nav ul ul li a {
+            padding: 1rem 1.3rem;
+            border-bottom: 1px solid black;
+        }
+
+nav ul li {
+    float: left;
+}
+
+    nav ul li a {
+        display: block;
+        text-decoration: none;
+        padding: 1.5rem 2rem;
+    }
+
+    nav ul li:hover {
+        background: #808080;
+    }
+
+    nav ul li a:hover {
+        color: #ffd800;
+    }
+
+    nav ul li:hover > ul {
+        display: block;
+    }
+
+nav ul {
+    padding: 0 2rem;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+}
+
+    nav ul:after {
+        content: "";
+        clear: both;
+        display: block;
+    }

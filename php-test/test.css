@@ -1,0 +1,13 @@
+h1 {
+	color: white;
+	border-radius: 40px;
+	border: 2px solid black;
+	width: 225px;
+	position: relative;
+	z-index: 10;
+	padding: 10px;
+	background: tomato;
+	-webkit-text-fill-color: yellow; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}

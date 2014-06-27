@@ -10,7 +10,7 @@
 			<nav class="nav-container">
 				<ul class="menu-item">
 					<li>
-						<a href="https://softuni.bg/news" title="news" target="_blank">Начало</a>
+						<a href="https://softuni.bg/news" title="news" target="_blank">Новини</a>
 					</li>
 					<li>
 						<a href="#">За университета ▾</a>

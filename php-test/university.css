@@ -64,8 +64,34 @@ nav ul {
         display: block;
     }
 
+    .footer-section {
+        margin-left:3rem;
+        float:left;
+    }
+
+    .footer-section h3{
+        color:red;
+        font-size:1.3rem;
+    }
+
+    .footer-section ul{
+     margin:0;
+     padding:0;
+    }
+
+    .footer-section ul li{
+        list-style-type:none;
+        
+    }
+
+    .footer-section ul li a{
+        font-size:1.4rem;
+        text-decoration:none;
+    }
+
     #wrapper{
-        margin:0 auto;
+        margin:0 15rem;
         border:1px solid black;
         width:96rem;
+        display:inline-table;
     }

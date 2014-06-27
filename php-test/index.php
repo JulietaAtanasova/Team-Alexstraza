@@ -7,18 +7,20 @@
 		href="test.css">
 	</head>
 	<body>
-		<?php
+        <div id="wrapper">
+            <?php
 
-		include("header.php");
+            include("header.php");
 
-		?>
+            ?>
 
-		</br>
+            </br>
 
-		<div id="content">
-			<h1>PHP is badass</h1>
-		</div>
+            <div id="content">
+                <h1>PHP is badass</h1>
+            </div>
 
-		</br>
+            </br>
+        </div>
 	</body>
 </html>

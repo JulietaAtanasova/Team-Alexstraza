@@ -2,7 +2,7 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 62.5%;
     font-family: Tahoma,Arial,sans-serif;
 }
 
@@ -10,8 +10,6 @@ body, div, p, h1, h2, h3, h4, h5, h6, span, li, ul, a, {
     padding: 0;
     margin: 0;
 }
-
-
 
 nav ul ul {
     display: none;
@@ -23,7 +21,7 @@ nav ul ul {
     nav ul ul li {
         float: none;
         position: relative;
-        background-color:aqua;
+        background-color: aqua;
     }
 
         nav ul ul li a {
@@ -64,4 +62,10 @@ nav ul {
         content: "";
         clear: both;
         display: block;
+    }
+
+    #wrapper{
+        margin:0 auto;
+        border:1px solid black;
+        width:96rem;
     }

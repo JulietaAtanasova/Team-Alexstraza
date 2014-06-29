@@ -1,17 +1,16 @@
 ﻿body {
+    background-color:#1A1A1A;
 }
 
 html {
-    font-size: 16px;
-    font-family: Tahoma,Arial,sans-serif;
+    font-size: 62.5%;
+    font-family: Arial,Helvetica,sans-serif;
 }
 
-body, div, p, h1, h2, h3, h4, h5, h6, span, li, ul, a, {
+body, div, p, h1, h2, h3, h4, h5, h6, span, li, ul, a {
     padding: 0;
     margin: 0;
 }
-
-
 
 nav ul ul {
     display: none;
@@ -23,7 +22,7 @@ nav ul ul {
     nav ul ul li {
         float: none;
         position: relative;
-        background-color:aqua;
+        background-color: #353135;
     }
 
         nav ul ul li a {
@@ -39,14 +38,17 @@ nav ul li {
         display: block;
         text-decoration: none;
         padding: 1.5rem 2rem;
+        color:#E5B13A;
+        font-weight:bold;
+        font-size:1.3rem;
     }
 
     nav ul li:hover {
-        background: #808080;
+        background: #232323;
     }
 
     nav ul li a:hover {
-        color: #ffd800;
+        color: #E5B13A;
     }
 
     nav ul li:hover > ul {
@@ -64,4 +66,49 @@ nav ul {
         content: "";
         clear: both;
         display: block;
+    }
+
+    .footer-section {
+        margin-left:3rem;
+        float:left;
+    }
+
+    .footer-section h3{
+        color:#E5B13A;
+        font-size:1.3rem;
+    }
+
+    .footer-section ul{
+     margin:0;
+     padding:0;
+    }
+
+    .footer-section ul li{
+        list-style-type:none;
+    }
+
+    .footer-section ul li a{
+        font-size:1.2rem;
+        text-decoration:none;
+        color:#999999;
+    }
+    .footer-text{
+        font-size:1.2rem;
+        color:#999999;
+    }
+    #wrapper{
+        display:block;
+        margin-left: auto;
+        margin-right:auto;
+        width:106rem;
+        
+        background-color:#000000;
+    }
+
+    #logo{
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        width:500px;
+        height:auto;
     }

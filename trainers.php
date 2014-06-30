@@ -6,12 +6,13 @@
 	</head>
 	<body>
 		<div id="trainers">
+			
+			<div id="wrapper">
 			<?php
 	
 	        	include("header.php");
 	
 	        ?>
-			<div id="wrapper">
 				<h1>
 					Джедай Masters
 				</h1>
@@ -81,12 +82,13 @@
 						</p>
 					</article>
 				</section>
-			</div>
 			<?php
 	
 	        	include("footer.php");
 	
 	        ?>
+			</div>
+			
 		</div>
 	</body>
 </html>

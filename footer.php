@@ -30,10 +30,12 @@
             <h3>STARWARS UNIVERSITY LEARNING</h3>
             <div class="footer-text">© X-2014  - Starwars University. All Rights Reserved.</div>
         </section>
+        <div id="facebook">
         <section class="footer-section">
             <h3>НАМЕРЕТЕ НИ ВЪВ FACEBOOK</h3>
             <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fsoftwarsuniversity&amp;width&amp;height=190&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:19rem;" allowtransparency="true"></iframe>
         </section>
+            </div>
     </footer>
 </body>
 </html>

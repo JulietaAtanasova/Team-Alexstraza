@@ -12,14 +12,17 @@ body, div, p, h1, h2, h3, h4, h5, h6, span, li, ul, a {
     margin: 0;
 }
 
-
+#head-container {
+    display: inline-block;
+}
 
 nav ul li {
     float: left;
 }
 
 nav ul > li {
-    border-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 nav ul li a {
@@ -30,6 +33,7 @@ nav ul li a {
     font-weight: bold;
     font-size: 1.3rem;
 }
+
 nav ul li:hover {
     background: #232323;
 }
@@ -110,7 +114,6 @@ nav ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 106rem;
     background-color: #000000;
 }
 
@@ -123,52 +126,145 @@ nav ul {
 }
 
 @media screen and (max-width:1100px) {
-
-    nav,
-    nav ul,
-    nav li,
-    nav a {
-        margin: 0;
-        padding: 0;
-        border: none;
-        outline: none;
+    #logo {
+        margin: 0 30rem;
+        width: 400px;
     }
 
-        nav ul {
-                display: block;
-        }
-
-            nav ul ul {
-        position: static;
+    #facebook {
+        display: none;
     }
 
-        nav li {
-            list-style: none;
+    body footer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: black;
+    }
+
+    .footer-section {
+        margin-left: 10rem;
+    }
+
+    .nav-container {
+        display: inline-block;
+    }
+
+    @media screen and (max-width:890px) {
+        #logo {
+            margin: 0 30rem;
+            width: 300px;
         }
 
-            nav li > a {
+        .footer-section {
+            margin-left: 7rem;
+        }
+
+        .nav-container {
+            display: inline-block;
+        }
+    }
+
+    @media screen and (max-width:780px) {
+
+        .nav-container {
+            display: inline-block;
+        }
+
+        #head-container {
+            display: inline-block;
+        }
+
+        #wrapper {
+            display: inline-block;
+        }
+
+        #logo {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .footer-section {
+            margin: 0 auto;
+            display: inline-block;
+            padding-left: 3rem;
+        }
+    }
+
+    @media screen and (max-width:640px) {
+
+        #wrapper {
+            display: block;
+        }
+
+        .nav-container, footer {
+            padding-left: 15rem;
+        }
+
+
+        nav,
+        nav ul,
+        nav li,
+        nav a {
+            margin: 0;
+            padding: 0;
+            border: none;
+            outline: none;
+        }
+
+            nav ul {
                 display: block;
-                position: relative;
-                min-width: 110px;
-                padding: 0 10px 0 40px;
-                color: #fdfdfd;
-                font: bold 12px/32px Arial, sans-serif;
-                text-decoration: none;
             }
 
+                nav ul ul {
+                    position: static;
+                }
 
-    .sub-nav-list {
-        height: 0;
-        overflow: hidden;
+            nav li {
+                list-style: none;
+            }
+
+                nav li > a {
+                    display: block;
+                    position: relative;
+                    min-width: 110px;
+                    padding: 0 10px 0 40px;
+                    color: #fdfdfd;
+                    font: bold 12px/32px Arial, sans-serif;
+                    text-decoration: none;
+                }
+
+
+        .sub-nav-list {
+            height: 0;
+            overflow: hidden;
+        }
+
+        nav li:hover > .sub-nav-list {
+            height: auto;
+        }
+
+        nav ul li {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            float: none;
+        }
     }
 
-    nav li:hover > .sub-nav-list {
-        height: auto;
-    }
+    @media screen and (max-width:640px) {
 
-    nav ul li {
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-        float: none;
-    }
-}
+        .nav-container, footer {
+            padding-left: 10rem;
+        }
+
+        @media screen and (max-width:480px) {
+
+            .nav-container, footer {
+                padding-left: 7rem;
+            }
+
+            @media screen and (max-width:400px) {
+
+                .nav-container, footer {
+                    padding-left: 0;
+                }

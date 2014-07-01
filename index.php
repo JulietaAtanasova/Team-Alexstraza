@@ -6,11 +6,16 @@
         rel="stylesheet"
         href="styles/test.css">
     <meta charset="utf-8" />
+
 </head>
 <body>
+    <?php
+   //include a javascript file
+    echo "<script type='text/javascript' src='JavaScript1.js'></script>";
+?>
     <div id="wrapper">
         <?php
-
+        
         include("header.php");
 
         ?>

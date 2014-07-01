@@ -1,0 +1,107 @@
+html, body, div, header, section, article, footer, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    background-color:#9DB0AA;
+}
+#wrapper {
+    width: 1346px;
+    height: 705px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#wrapper>header {
+    /*//background-image: url(../images/adriana.jpg);*/
+    height: 120px;
+    margin-bottom: 50px;
+    background-color:black;
+}
+header>div {
+    color: white;
+    text-align: center;
+    font-size: 0.85em;
+    line-height: 33px;
+    margin: 155px 159px 0 0; /*lepenkata vertikal,horizontal*/
+    background-color: #FF9C00;
+    width: 88px;
+    height: 33px;
+    float: right;
+}
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+section>header { /*NOVINKITE*/
+    color: #234465;
+    font-size: 1.35em;
+    margin-bottom: 25px;
+    margin-top:25px;
+}
+section>article { /*statiqta,kutiikite*/
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-shadow: 0 2px 10px #234465;
+    width: 31%;
+    height: 400px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding: 35px 35px 20px;
+    position: relative;
+    background-color:white;
+}
+article>header {
+    color: #234465;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    background-color:white;
+}
+article .date {
+    text-align: right;
+    font-size: 0.9em;
+    background-color:white;
+}
+article .author {
+    color: #5A5A5A;
+    font-size: 0.84em;
+    background-color:white;
+}
+article img {
+    margin: 10px 0px 15px 56px;
+}
+article .text {
+    color: #5A5A5A;
+    font-size: 0.84em;
+    background-color:white;
+}
+article .tags {
+    color: #999999;
+    font-size: 0.8em;
+    position: absolute;
+    bottom: 13px;
+    background-color:white;
+}
+.tags>span {
+    color: #5A5A5A;
+    font-weight: bold;
+}
+ul>li { /*// butoni,dolu*/
+    list-style-type: none;
+    color: white;
+    background-color: #4CA0DB;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 0.9em;
+    margin-right: -4px;
+    margin-bottom: 25px;
+    margin-top:25px;
+    border-color:white;
+}
+ul>li:first-child {
+    background-color: #FF9C00;
+}

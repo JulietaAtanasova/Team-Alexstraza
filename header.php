@@ -3,7 +3,7 @@
 	<head>
 		<link type="text/css"
 		rel="stylesheet"
-		href="university.css">
+		href="styles/university.css">
 	</head>
 	<body>
 		<div class="head-container">

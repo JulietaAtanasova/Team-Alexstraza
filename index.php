@@ -4,7 +4,7 @@
     <title>SoftWars Test</title>
     <link type="text/css"
         rel="stylesheet"
-        href="test.css">
+        href="styles/test.css">
     <meta charset="utf-8" />
 </head>
 <body>

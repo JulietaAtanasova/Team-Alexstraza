@@ -3,7 +3,7 @@
 <head>
     <title></title>
 
-    <link href="university.css" rel="stylesheet" />
+    <link href="styles/university.css" rel="stylesheet" />
 </head>
 <body>
     <footer>

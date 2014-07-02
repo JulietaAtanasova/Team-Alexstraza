@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>	
 	<head>
+        <title>Общежития</title>
 		<meta charset="UTF-8" />
 		<link type="text/css" rel="stylesheet" href="styles/styles.css">
 	</head>

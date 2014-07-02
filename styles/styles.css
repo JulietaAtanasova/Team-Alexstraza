@@ -89,18 +89,10 @@ h1, #trainers section header {
 	float: left;
 	text-align: justify;
 	font-size: 16px;
+	margin: 10px;
 	width: 650px;
 	position:relative;
 	left: 19%;
-	border: 2px solid orange;
-	border-radius: 10px;
-	margin: 15px;
-	padding: 5px;
-	background: rgba(255,255,255,0.1);
-}
-
-#about section #text p {
-	color: #999;
 }
 
 #about #wrapper section img {
@@ -143,57 +135,34 @@ td {
 	border: 1px solid #E5B13A;	
 }
 
-#news #wrapper #content {
-	font-size: 16px;
-}
 
-#news #wrapper #content section {
+div#news div#wrapper div#content section {
 	width: 600px;
 	margin: 0 auto;
 }
-
-#news #wrapper #content section article {
-	border: 2px solid orange;
-	border-radius: 10px;
-	margin: 15px;
-	padding: 5px;
-	background: rgba(255,255,255,0.1);
-}
-
-#news #wrapper #content section article .text {
-	color: #999;
-}
-
-#news #wrapper #content section article .text a{
+div#news div#wrapper div#content section article div.text a{
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
 }
 
-#news #wrapper #content section article .text a:hover {
+div#news div#wrapper div#content section article div.text a:hover {
 	color: blue;
 }
 
-#news #wrapper #content section article header a {
+#news #wrapper #content section article header {
 	font-weight: bold;
-	color: #E5B13A;
-	text-decoration: none;
-}
-
-#news #wrapper #content section article header a:hover {
-	color: white;
 }
 
 #news #wrapper #content section article .tags {
-	margin-top: 15px;
+	margin-bottom: 30px;
 }
 
 #news #wrapper #content section article .date {
-	color: #999;
-	font-size: 12px;
 	font-weight: bold;
 }
 
+#news #wrapper #content section article .date,
 #news #wrapper #content section article .author,
 #news #wrapper #content section article .tags {
 	color: white;
@@ -210,6 +179,10 @@ td {
 	left: 22%;
 	font-size: 16px;
 	margin: 15px;
+}
+
+.form-reg{
+    padding-bottom: 5rem;
 }
 
 .lable {
@@ -237,7 +210,7 @@ select.input-txt {
 }
 
 #btn {
-    display: block;
+    display: inline-block;
     width: 13rem;
 	margin-top: 0px;
 	font-size: 14px;
@@ -246,7 +219,7 @@ select.input-txt {
     text-align: center;
     color: black;
     background-color: #E5B13A;
-    left: 42%;
+    left: 43.5%;
 	font-weight: bold;
 	border-radius: 10px;
 }

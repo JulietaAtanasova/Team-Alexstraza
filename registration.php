@@ -50,8 +50,8 @@
                 <label class="lable" for="country">Държава</label>
                 <input class="input-txt" id="country" type="text" pattern="[A-Za-z]" title="" placeholder="Държава" />
             </section>
-            <button id="btn" type="submit">Стани джедай</button>
             </div>
+             <button id="btn" type="submit">Стани джедай</button>
         </form>
 
         <?php

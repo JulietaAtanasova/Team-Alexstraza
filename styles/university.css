@@ -14,6 +14,7 @@ body, div, p, h1, h2, h3, h4, h5, h6, span, li, ul, a {
 
 #head-container {
     display: inline-block;
+    z-index:10000000000;
 }
 
 #owl-demo{
@@ -65,6 +66,7 @@ nav ul li a:hover {
 
 nav ul li:hover > ul {
     display: block;
+    z-index:2;
 }
 
 nav ul {

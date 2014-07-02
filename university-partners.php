@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>	
 	<head>
         <title>Универистети-партньори</title>
@@ -23,7 +23,7 @@
                 <h2>Софтуерен университет</h2>
                 <div>
                     <p>Адрес: Галактика Млечен път, Слънчева система, Планета Земя (онази синята)</p>
-					<span><a href="https://softuni.bg/">Software University</a></span>
+					<p>Сайт: <span><a href="https://softuni.bg/">Software University</a></span></p>
                     
                 </div>
 				

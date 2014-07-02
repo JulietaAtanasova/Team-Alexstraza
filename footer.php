@@ -10,20 +10,19 @@
         <section class="footer-section">
             <h3>ЗА УНИВЕРСИТЕТА</h3>
             <ul>
-                <li><a href="#">За нас</a></li>
-                <li><a href="#">Професии</a></li>
-                <li><a href="#">Университети-партньори</a></li>
-                <li><a href="#">Преподаватели</a></li>
-                <li><a href="#">Общежития</a></li>
-                <li><a href="#">Кандидатстване</a></li>
+                <li><a href="about.php">За нас</a></li>
+                <li><a href="university-partners.php">Университети-партньори</a></li>
+                <li><a href="trainers.php">Орденът на джедаите</a></li>
+                <li><a href="hospice.php">Общежития</a></li>
+                <li><a href="registration.php">Кандидатстване</a></li>
             </ul>
         </section>
         <section class="footer-section">
             <h3>НАШИТЕ ПРИЯТЕЛИ</h3>
             <ul>
-                <li><a href="#">Светлин Наков блог</a></li>
-                <li><a href="#">C# книга</a></li>
-                <li><a href="#">Software University</a></li>
+                <li><a href="http://www.nakov.com/">Светлин Наков блог</a></li>
+                <li><a href="http://www.introprogramming.info/intro-csharp-book">C# книга</a></li>
+                <li><a href="https://softuni.bg/">Software University</a></li>
             </ul>
         </section>
         <section class="footer-section">

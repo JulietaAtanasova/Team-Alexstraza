@@ -1,0 +1,289 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#trainers section p {
+	width: 630px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 960px;
+	background: black;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #E5B13A;	
+	height: inherit;
+}
+
+#trainers #wrapper section article {
+	font-size: 16px;
+}
+
+#trainers #wrapper section article#evlogi header,
+#trainers #wrapper section article#velko header {
+	position: relative;
+	left: 460px;
+}
+
+#trainers #wrapper section article#mario header  {
+	left: 440px;
+}
+
+#trainers article {
+	display: inline-block;
+}
+
+#trainers h1 {
+	margin-top: 0px;
+	text-align: center;
+}
+
+h1, #trainers section header {
+	font-size: 25px;
+	position: relative;
+	left: 10px;
+}
+
+#trainers section header {
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: none;
+	color: white;
+	text-shadow: 1px 1px 2px #E5B13A;
+}
+
+#trainers #nakov p,
+#trainers #petya p,
+#trainers #vlado p {
+	position: relative;
+	left: 10px;
+	float: left;
+}
+
+#trainers #wrapper #nakov img,
+#trainers #wrapper #petya img,
+#trainers #wrapper #vlado img {
+	border: 2px solid #E5B13A;
+	float: left;
+}
+
+#trainers #wrapper #mario img,
+#trainers #wrapper #evlogi img,
+#trainers #wrapper #velko img {
+	border: 2px solid #E5B13A;
+	float: right;
+}
+
+#trainers #wrapper #mario p,
+#trainers #wrapper #evlogi p,
+#trainers #wrapper #velko p {
+	text-align: right;
+	right: 10px;
+	position: relative;
+	float: right;
+}
+
+#about section #text {
+	float: left;
+	text-align: justify;
+	font-size: 16px;
+	margin: 10px;
+	width: 650px;
+	position:relative;
+	left: 19%;
+}
+
+#about #wrapper section img {
+	float: left;
+	width: 100%;
+}
+
+#hospice #wrapper #content img {
+	float: left;
+	position: relative;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#about #wrapper #content section {
+	background: black;
+	overflow: auto;
+}
+
+#hospice #content #text,
+#hospice #content #price-table {
+	width: 650px;
+	margin: 0 auto;
+	text-align: justify;
+	font-size: 16px;
+}
+#hospice #wrapper #content #price-table {
+	margin-top: 15px;
+}
+
+#hospice #wrapper #content #price-table table {
+	border: 1px solid #E5B13A;
+	margin: auto;
+	text-align: left;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+td {
+	border: 1px solid #E5B13A;	
+}
+
+
+div#news div#wrapper div#content section {
+	width: 600px;
+	margin: 0 auto;
+}
+div#news div#wrapper div#content section article div.text a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+div#news div#wrapper div#content section article div.text a:hover {
+	color: blue;
+}
+
+#news #wrapper #content section article header {
+	font-weight: bold;
+}
+
+#news #wrapper #content section article .tags {
+	margin-bottom: 30px;
+}
+
+#news #wrapper #content section article .date {
+	font-weight: bold;
+}
+
+#news #wrapper #content section article .date,
+#news #wrapper #content section article .author,
+#news #wrapper #content section article .tags {
+	color: white;
+	font-size: 12px;
+}
+
+#position-reg {
+    height:20rem;
+	
+}
+
+#position-reg > * {
+	position: relative;
+	left: 22%;
+	font-size: 16px;
+	margin: 15px;
+}
+
+.lable {
+    display: block;
+}
+
+.input-txt {
+    display: inline-block;
+    height: 2.1rem;
+    width: 99%;
+}
+
+select.input-txt {
+	width: 102%;
+	height: 2.7rem;
+}
+
+.section-form {
+    position: relative;
+    width: 15rem;
+    display: inline-block;
+    margin: 1rem;
+    display: inline-block;
+    
+}
+
+#btn {
+    display: block;
+    width: 13rem;
+	margin-top: 0px;
+	font-size: 14px;
+	position: relative;
+    height: 3rem;
+    text-align: center;
+    color: black;
+    background-color: #E5B13A;
+    left: 42%;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+    #btn:hover {
+        border-color: blue;
+    }
+
+#about {
+	font-size: 16px;
+}
+
+#about h2,
+#about p,
+#about a  {
+	margin-left: 15px;
+}
+
+#about p {
+	color: #999999;
+	margin-bottom: 20px;
+}
+
+#about span a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+#about span a:hover {
+	color: orange;
+	font-weight: bold;
+}
+
+#contacts #map img {
+	width: 100%;
+}
+
+
+#find-us {
+	padding: 10px;
+	margin: 15px auto 15px;
+	width: 50%;
+	border: 2px solid orange;
+	border-radius: 10px;
+	color: #E5B13A;
+}
+
+#find-us header h2 {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#find-us #address {
+	margin: 15px auto 15px;
+	font-size: 14px;
+	width: 420px;
+}
+
+#find-us #address hr {
+	border-color: white;
+	margin: 15px auto 15px;
+}
+
+
+
+
+
+
+
+

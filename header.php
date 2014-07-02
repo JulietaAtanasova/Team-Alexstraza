@@ -18,19 +18,16 @@
                     <a href="#">За университета ▾</a>
                     <ul class="sub-nav-list">
                         <li>
-                            <a href="https://softuni.bg/about" title="aboutUs" target="_blank">За нас</a>
-                        </li>
-                        <li>
-                            <a href="https://softuni.bg/professions" title="professions" target="_blank">Професии</a>
+                            <a href="about.php" title="aboutUs" target="_blank">За нас</a>
                         </li>
                         <li>
                             <a href="https://softuni.bg/partner-universities" title="partners" target="_blank">Университети-партньори</a>
                         </li>
                         <li>
-                            <a href="https://softuni.bg/trainers" title="trainers" target="_blank">Преподаватели</a>
+                            <a href="trainers.php" title="trainers" target="_blank">Орденът на джедаите</a>
                         </li>
                         <li>
-                            <a href="https://softuni.bg/dorms" title="dorms" target="_blank">Общежития</a>
+                            <a href="hospice" title="dorms" target="_blank">Общежития</a>
                         </li>
                         <li>
                             <a href="https://softuni.bg/apply" title="apply" target="_blank">Кандидатстване</a>

@@ -54,12 +54,13 @@
              <button id="btn" type="submit">Стани джедай</button>
         </form>
 
+        <section id="foot-master">
         <?php
 
         include("footer.php")
 
         ?>
-
+            </section>
     </div>
 </body>
 </html>

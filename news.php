@@ -52,7 +52,7 @@
 								<a href="#" onclick="toggle_visibility('show-07'); return false" class="read-more">[Прочети още...]</a>
 							<div class="show-news" id="show-07">Никой все още не се е замислял как е дошла идеята за нашия университет. Всичко е много просто... Или сложно? Преценете сами:<br>
 							<video width="100%"" controls>
-								<source src="resources/OpenCrawl-nosound.mp4" type="video/mp4">
+								<source src="http://softwarsuni.cloudvps.bg/resources/OpenCrawl-nosound.mp4" type="video/mp4">
 								Браузърът ви не поддържа видео.
 							</video>
 							</div>

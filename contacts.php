@@ -19,7 +19,7 @@
 				    Контакти
 				</h1>
                 <div id="map">
-                    <img src="images/map.png" />
+                    <img src="images/map.jpg" />
                 </div>
 				
 				<div id="find-us">

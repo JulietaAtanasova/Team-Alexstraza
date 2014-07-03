@@ -97,8 +97,8 @@
 								<a href="resources/t-shirt-men.html" target="_blank">T-SHIRT MEN</a><br>
                                 <a href="resources/t-shirt-women.html" target="_blank">T-SHIRT WOMEN</a><br>
 								Можете да си изтеглите една от двете щампи:<br>
-								<a href="images/keep-calm.png" target="_blank">Keep Calm</a><br>
-								<a href="images/keep-calm2.png" target="_blank">Keep Calm Code Edition</a><br>
+								<a href="http://softwarsuni.cloudvps.bg/images/keep-calm.png" target="_blank">Keep Calm</a><br>
+								<a href="http://softwarsuni.cloudvps.bg/images/keep-calm2.png" target="_blank">Keep Calm Code Edition</a><br>
 								<a href="#" onclick="toggle_visibility('show-04'); return false" class="read-more">[Прочети още...]</a>
 							<div class="show-news" id="show-04">Съвсем нетрадиционните тениски ще се раздават на входа на SoftWars Uni. Очевидци твърдят, че одеждите светели в тъмното и с това допринасят за цялостния външнен вид на младшите джедаи. Цялата организация е дело на един от Мастърите, чието име той пожела да остане в тайна от съображения за сигурност. "Тъмната индийска сила избледнява все повече", твърдят някои от чакащите на опашката за униформи джедаи.</div>
 

@@ -43,7 +43,7 @@
                             <a class="sub-menu" href="#" title="courses" >Курсове</a>
                         </li>
                         <li>
-                            <a href="#" title="java basics may 2014" >Java Basics May 2014</a>
+                            <a href="intro-jedi.php" title="intro-jedi" >Въведение в джедайството</a>
                         </li>
                         <li>
                             <a href="#" title="c# basics march 2014" >C# Basics march 2014</a>

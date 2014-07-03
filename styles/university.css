@@ -271,7 +271,7 @@ margin:0 auto;
         }
 
         nav li:hover > .sub-nav-list {
-            height: 400px;
+            height: auto;
         }
 
         nav ul li {

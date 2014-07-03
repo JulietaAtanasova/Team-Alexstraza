@@ -1,0 +1,409 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#trainers section p {
+    width: 680px;
+	text-align: justify;
+	display: inline;
+	float: left;
+	position: relative;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 960px;
+    background: black;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #E5B13A;
+    height: inherit;
+}
+
+#trainers section article {
+	font-size: 16px;
+	position: relative;
+    display: inline-block;
+	width: 700px;
+	left: 130px;
+	border: 2px solid #E5B13A;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.1);
+	margin: 10px;
+}
+
+#trainers h1 {
+    margin: 10px;
+}
+
+h1, #trainers section header {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+}
+
+#trainers section header {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: none;
+    color: white;
+    text-shadow: 1px 1px 2px #E5B13A;
+}
+
+#trainers p {
+    left: 10px;
+}
+
+#trainers .trainer-info {
+	position: relative;
+	left: 15px;
+	width: 97%;
+	word-break: normal;
+}
+
+#trainers #wrapper img {
+    float: left;
+	position: relative;
+	left: 10px;
+}
+
+#about #wrapper #content section {
+    background: black;
+}
+
+#about section #text {
+	border: 2px solid #E5B13A;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.1);
+	width: 700px;
+	margin: 15px auto 15px;
+}
+
+#about #wrapper section img {
+    float: left;
+    width: 100%;
+}
+
+#about {
+    font-size: 16px;
+}
+    #about p {
+        margin-left: 15px;
+		color: #999;
+    }
+
+#hospice #content #text,
+#hospice #content #price-table {
+    width: 650px;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 16px;
+}
+
+#hospice #wrapper #content img {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#hospice #wrapper #content #text {
+	border: 2px solid orange;
+	background: rgba(255,255,255,0.1);
+	border-radius: 10px;
+	width: 700px;
+	color: #999;
+	line-height: 25px;
+	padding: 15px;
+	margin: 15px auto 15px;
+}
+
+    #hospice #wrapper #content #price-table table {
+        border: 1px solid orange;
+        margin: 0 auto;
+        width: 100%;
+		color: #999;
+        box-sizing: border-box;
+		background: rgba(255,255,255,0.1);
+    }
+
+td {
+    border: 1px solid #E5B13A;
+}
+
+
+div#news div#wrapper div#content section {
+	width: 600px;
+	margin: 0 auto;
+}
+div#news div#wrapper div#content section article div.text a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+div#news div#wrapper div#content section article div.text a:hover {
+	color: blue;
+}
+
+#news #wrapper #content section article {
+	border: 2px solid white;
+	border-radius: 10px;
+	margin: 15px;
+	padding: 5px;
+	background-color: rgba(255,255,255,0.1);
+}
+
+#news #wrapper #content section article header {
+	font-weight: bold;
+}
+
+#news #wrapper #content section article header a {
+	color: #E5B13A;
+	text-decoration: none;
+}
+
+#news #wrapper #content section article header a:hover {
+	color: blue;
+}
+
+#news #wrapper #content section article .tags {
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+#news #wrapper #content section article .date {
+	font-weight: bold;
+}
+
+#news {
+	font-size: 16px;
+}
+
+#news #wrapper #content section article .date,
+#news #wrapper #content section article .author,
+#news #wrapper #content section article .tags {
+	color: white;
+	font-size: 12px;
+}
+
+#news .read-more {
+	font-size: 12px;
+}
+
+#news .show-news {
+	display: none;
+	color: #999;
+}
+
+#position-reg {
+    height: 20rem;
+}
+
+    #position-reg > * {
+        position: relative;
+        left: 22%;
+        font-size: 16px;
+        margin: 15px;
+    }
+
+.form-reg {
+    padding-bottom: 5rem;
+}
+
+.lable {
+    display: block;
+}
+
+.input-txt {
+    display: inline-block;
+    height: 2.1rem;
+    width: 99%;
+}
+
+select.input-txt {
+    width: 102%;
+    height: 2.7rem;
+}
+
+.section-form {
+    position: relative;
+    width: 15rem;
+    display: inline-block;
+    margin: 1rem;
+    display: inline-block;
+}
+
+#btn {
+    display: inline-block;
+    width: 13rem;
+    margin-top: 0px;
+    font-size: 14px;
+    position: relative;
+    height: 3rem;
+    text-align: center;
+    color: black;
+    background-color: #E5B13A;
+    left: 43.5%;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+    #btn:hover {
+        border-color: blue;
+    }
+
+#contacts #map img {
+    width: 100%;
+}
+
+
+#find-us {
+    padding: 10px;
+    margin: 15px auto 15px;
+    width: 50%;
+    border: 2px solid orange;
+    border-radius: 10px;
+    color: #E5B13A;
+	background-color: rgba(255,255,255,0.1);
+}
+
+    #find-us header h2 {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    #find-us #address {
+        margin: 15px auto 15px;
+        font-size: 14px;
+        width: 420px;
+    }
+
+        #find-us #address hr {
+            border-color: white;
+            margin: 15px auto 15px;
+        }
+		
+#creators #wrapper #content {
+	font-size: 16px;
+	width: 700px;
+	margin: 15px auto 15px;
+}
+		
+#creators #wrapper #content img {
+	width: 100%;
+}
+
+#creators #wrapper #content section article {
+	border: 2px solid orange;
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 10px;
+	padding: 5px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+#creators #wrapper #content #text-main a {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+#creators #wrapper #content #text-main a:hover {
+	color: dodgerblue;
+}
+
+#creators hr {
+	border-bottom: 2px solid orange;
+}
+
+#creators .text {
+	color: #E5B13A;
+	width: 200px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 15px;
+}
+
+#creators #wrapper #content .personal img {
+	width: 300px;	
+}
+
+@media screen and (max-width:800px) {
+    .form-reg {
+        display: inline-block;
+    }
+
+    .menu-item {
+        display: flex;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .form-reg {
+        display: inline-block;
+    }
+
+    #position-reg > * {
+        position: relative;
+        left: 0;
+        font-size: 16px;
+        margin: 15px;
+    }
+
+    .menu-item {
+        display: block;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .form-reg {
+        display: block;
+    }
+
+    #position-reg > * {
+        position: relative;
+        font-size: 16px;
+        margin: 15px;
+        display: block;
+        left:15rem;
+    }
+
+    .menu-item {
+        display: block;
+        
+    }
+
+    #position-reg {
+        height: auto;
+    }
+
+    #btn {
+        left: 17rem;
+    }
+
+    #foot-master{
+        display:none;
+    }
+}
+
+@media screen and (max-width:640px){
+    #position-reg > *{
+        left:7rem;
+    }
+
+     #btn {
+        left: 10rem;
+    }
+}
+
+@media screen and (max-width:400px){
+    #position-reg > *{
+        left:1rem;
+    }
+
+     #btn {
+        left: 3rem;
+    }
+}

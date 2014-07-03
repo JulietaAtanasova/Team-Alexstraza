@@ -32,6 +32,9 @@
 						Ние сме <strong>TEAM ALEXSTRASZA</strong>, екип студенти от <a href="http://softuni.bg" target="_blank">Software University</a>. Този сайт е продукт на нашата дейност, свързана с курса по HTML/CSS.
 						Повече за Alexstrasza, покровителката на нашия отбор, можете да прочетете <a href="http://wowpedia.org/Alexstrasza" target="_blank">тук</a>.
 						<br>
+						
+						Целият source код на проекта можете да видите <a href="https://github.com/JulietaAtanasova/Team-Alexstraza" target="_blank">тук</a>.
+						<br>
 						<br>
 						
 						<hr>

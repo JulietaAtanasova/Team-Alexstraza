@@ -46,13 +46,7 @@
                             <a href="intro-jedi.php" title="intro-jedi" >Въведение в джедайството</a>
                         </li>
                         <li>
-                            <a href="#" title="c# basics march 2014" >C# Basics march 2014</a>
-                        </li>
-                        <li>
-                            <a href="#" title="web fundamentals" >Web Fundamentals (HTML + CSS) May 2014</a>
-                        </li>
-                        <li>
-                            <a href="#" title="teamwork" >Teamwork and personal skills May 2014</a>
+                            <a href="weapons.php" title="weapons" >Оръжия</a>
                         </li>
                     </ul>
                 </li>
